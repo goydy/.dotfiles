@@ -2,7 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 picom &
-feh  --bg-fill ~/Downloads/test-paper-2.jpg &
+feh  --bg-fill ~/Downloads/calipso.jpg &
 
 bspc monitor -d I II III IV V 
 
