@@ -1,0 +1,52 @@
+URxvt.scrollBar: false 
+URxvt.foregound: blue 
+URxvt.internalBorder: 15
+
+urxvt.depth: 32 
+urxvt.background: rgba:0000/0000/0000/c800
+
+!urxvt.font: xft:DejaVu Sans mono:size=8
+urxvt.font: xft:hack:size=8
+
+!Resore Copy Paste using ctrl + shift c and v
+URxvt.keysym.Shift-Control-V: eval:paste clipboard
+URxvt.keysym.Shift-Control-C: eval:selection to clipboard
+URxvt.iso14755: false
+URxvt.iso14655 52: flse
+
+! special
+*.foreground:   #ffffff
+*.background:   #000000
+*.cursorColor:  #ffffff
+
+! black
+*.color0:       #0e0a3b
+*.color8:       #9a7c82
+
+! red
+*.color1:       #f19632
+*.color9:       #f48d1b
+
+! green
+*.color2:       #efc24b
+*.color10:      #eab835
+
+! yellow
+*.color3:       #6e37ba
+*.color11:      #5a14bc
+
+! blue
+*.color4:       #4638e6
+*.color12:      #4638e6
+
+! magenta
+*.color5:       #633cdf
+*.color13:      #4113d4
+
+! cyan
+*.color6:       #a264a6
+*.color14:      #a264a6
+
+! white
+*.color7:       #dcb2bb
+*.color15:      #dcb2bb
