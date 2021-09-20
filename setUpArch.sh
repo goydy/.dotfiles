@@ -61,6 +61,7 @@ su - $userID
 ##picom - Compositor (Used for transparency etc)
 ##polybar - Toolbar
 ##feh - Image Viewer, used for Wallpaper
+##adobe-source-code-pro-fonts - Shell Font
 sudo pacman -S xorg-server xorg-xinit bspwm sxhkd rxvt-unicode picom feh ttf-hack
 yay -S polybar 
 
