@@ -5,8 +5,7 @@ URxvt.internalBorder: 15
 urxvt.depth: 32 
 urxvt.background: rgba:0000/0000/0000/c800
 
-!urxvt.font: xft:DejaVu Sans mono:size=8
-urxvt.font: xft:hack:size=8
+urxvt.font: xft:Source Code Pro:size=8
 
 !Resore Copy Paste using ctrl + shift c and v
 URxvt.keysym.Shift-Control-V: eval:paste clipboard
