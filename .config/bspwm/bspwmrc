@@ -7,7 +7,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 picom &
 
 #Load Wallpaper
-feh  --bg-fill ~/Downloads/calipso.jpg &
+feh  --bg-fill ~/.dotfiles/wallpapers/wallpaper.jpg &
 
 #Load Workspaces
 bspc monitor -d I II III IV V 
