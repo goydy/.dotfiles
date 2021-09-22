@@ -6,21 +6,23 @@
 type = internal/bspwm
 
 #Labels for Active Workspace
-label-focused = %index%
-label-focused-background = ${colors.background-alt}
-label-focused-underline= ${colors.primary}
+;label-focused = %index%
+label-focused-font = 5
+label-focused = 
 label-focused-padding = 2
 
-#Labels for Workspaces which are live
-label-occupied = %index%
-label-occupied-padding = 2
+#Labels for Workspaces which are live (have active windows in them)
+label-occupied-font = 3
+label-occupied = 
+label-occupied-padding = 1
 
 #Labels for Urgent Workspaces
 label-urgent = %index%!
 label-urgent-background = ${colors.alert}
-label-urgent-padding = 2
+label-urgent-padding = 1
 
 #Labels for Empty Workspaces
-label-empty = %index%
+label-empty-font=2
+label-empty = 
 label-empty-foreground = ${colors.foreground-alt}
-label-empty-padding = 2
+label-empty-padding = 1
