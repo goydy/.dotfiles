@@ -1,8 +1,10 @@
 URxvt.scrollBar: false 
 URxvt.foregound: blue 
-URxvt.internalBorder: 15
 
-urxvt.depth: 32 
+URxvt.internalBorder: 0
+URxvt.externalBorder: 0
+
+urxvt.depth: 32
 urxvt.background: rgba:0000/0000/0000/c800
 
 urxvt.font: xft:Source Code Pro:size=8
