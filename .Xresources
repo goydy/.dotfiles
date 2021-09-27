@@ -1,7 +1,7 @@
 URxvt.scrollBar: false 
 URxvt.foregound: blue 
 
-URxvt.internalBorder: 0
+URxvt.internalBorder: 6
 URxvt.externalBorder: 0
 
 urxvt.depth: 32
