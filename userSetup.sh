@@ -35,3 +35,6 @@ ln -s /home/$userID/.dotfiles/.config/picom.conf /home/$userID/.config/picom.con
 
 #Install Visual Studio Code (open source not Microsoft)
 yay -S code
+
+#Start X on login
+echo "startx" >> ~/.bash_profile
