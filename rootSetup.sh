@@ -37,19 +37,6 @@ iwctl station wlan0 connect PrettyFlyForAWiFi
 ## openssh - Used for GIT as well as other day to day remote control
 pacman -S iwd sudo git fakeroot binutils go make gcc openssh
 
-#Setup a Window Manager and make it pretty and easy to use
-##xorg-server - X Window Server
-##xorg-xinit - Start X operations on init
-##bspwm - Binary Space Partition Window Manager
-##sxhkd - Simple X Hot Key Deamon
-##rxvt-unicode - Terminal Emulator
-##picom - Compositor (Used for transparency etc)
-##polybar - Toolbar
-##feh - Image Viewer, used for Wallpaper
-##adobe-source-code-pro-fonts - Shell Font
-sudo pacman -S xorg-server xorg-xinit bspwm sxhkd rxvt-unicode picom feh ttf-hack
-yay -S polybar 
-
 #Grant me sudo, all operations
 echo "cbrown ALL=(ALL) ALL" > /etc/sudoers
 

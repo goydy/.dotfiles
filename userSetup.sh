@@ -18,8 +18,8 @@ sudo rm -R yay
 ##picom - Compositor (Used for transparency etc)
 ##polybar - Toolbar
 ##feh - Image Viewer, used for Wallpaper
-##adobe-source-code-pro-fonts - Shell Font
-sudo pacman -S xorg-server xorg-xinit bspwm sxhkd rxvt-unicode picom feh ttf-hack
+##Font Awesome - Used for Polybar Icons
+sudo pacman -S xorg-server xorg-xinit bspwm sxhkd rxvt-unicode picom feh ttf-hack ttf-font-awesome
 yay -S polybar 
 
 #Make the Config Directory
