@@ -31,6 +31,7 @@ ln -s /home/$userID/.dotfiles/.xinitrc /home/$userID/.xinitrc
 ln -s /home/$userID/.dotfiles/.config/bspwm /home/$userID/.config/bspwm
 ln -s /home/$userID/.dotfiles/.config/sxhkd /home/$userID/.config/sxhkd
 ln -s /home/$userID/.dotfiles/.config/polybar /home/$userID/.config/polybar
+ln -s /home/$userID/.dotfiles/.config/rofi /home/$userID/.config/rofi
 ln -s /home/$userID/.dotfiles/.config/picom.conf /home/$userID/.config/picom.conf
 
 #Install Visual Studio Code (open source not Microsoft)
