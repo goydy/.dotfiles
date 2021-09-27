@@ -9,7 +9,7 @@ type = internal/bspwm
 ;label-focused = %index%
 label-focused-font = 5
 label-focused = 
-label-focused-padding = 2
+label-focused-padding = 1
 
 #Labels for Workspaces which are live (have active windows in them)
 label-occupied-font = 3
