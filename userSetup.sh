@@ -19,7 +19,7 @@ sudo rm -R yay
 ##polybar - Toolbar
 ##feh - Image Viewer, used for Wallpaper
 ##Font Awesome - Used for Polybar Icons
-sudo pacman -S xorg-server xorg-xinit bspwm sxhkd rxvt-unicode picom feh ttf-hack ttf-font-awesome
+sudo pacman -S xorg-server xorg-xinit bspwm sxhkd rxvt-unicode picom feh rofi ttf-hack ttf-font-awesome
 yay -S polybar 
 
 #Make the Config Directory
