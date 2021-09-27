@@ -15,10 +15,10 @@ bspc monitor -d I II III IV V
 #Binary Space Partition Window Manager Settings
 
 #Set Border Width
-bspc config border_width        0 
+bspc config border_width        1
 
 #Set Border Height
-bspc comfig border_height	    0
+bspc comfig border_height	    1
 
 #Set Window Gap
 bspc config window_gap          2
