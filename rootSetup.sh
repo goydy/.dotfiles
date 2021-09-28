@@ -20,7 +20,6 @@ systemctl enable --now systemd-networkd systemd-resolved iwd
 iwctl station wlan0 connect PrettyFlyForAWiFi
 
 #Install basic packages used on arch
-## iwd - Internet Wireless Daemon - Used to manage wireless connections
 ## sudo - Used to run operations as other users (mostly root in this instance)
 ## git - Used for GitHub and Git Operations
 ## fakeroot - Used for YAY and AUR
@@ -30,8 +29,7 @@ iwctl station wlan0 connect PrettyFlyForAWiFi
 ## gcc - Needed for MakePkg to compile packages 
 ## openssh - Used for GIT as well as other day to day remote control
 ## zsh - Trying out a new shell rather than bash
-
-pacman -S iwd sudo git fakeroot binutils go make gcc openssh zsh
+pacman -S sudo git fakeroot binutils go make gcc openssh zsh
 
 #Set Keyboard to UK for terminal users
 echo "KEYMAP=uk" > /etc/vconsole.conf
@@ -41,7 +39,7 @@ echo "en_GB.UTF-8 UTF-8" >> /etc/locale.gen
 locale-gen
 
 #Set time to network time and set timezeone to Europe/London
-timedatectl set-tiemzone Europe/London
+timedatectl set-timezone Europe/London
 timedatectl set-ntp true
 
 #Add my User, give them the zsh shell and a home directory
