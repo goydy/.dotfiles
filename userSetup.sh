@@ -9,10 +9,8 @@ userID=cbrown
 ##polybar - Toolbar
 ##feh - Image Viewer, used for Wallpaper
 ##Font Awesome - Used for Polybar Icons
-##pkgconf - Needed to run Make against st
-##Patch - Needed to Patch ST
 ##Chromium - Default Browser
-sudo pacman -S xorg-server xorg-xinit bspwm sxhkd picom feh rofi ttf-hack ttf-font-awesome pkgconf patch chromium rxvt-unicode
+sudo pacman -S xorg-server xorg-xinit bspwm sxhkd picom feh rofi ttf-hack ttf-font-awesome pkgconf chromium rxvt-unicode
 
 #Install yay 
 git clone https://aur.archlinux.org/yay.git
@@ -45,4 +43,3 @@ yay -S code
 #Setup GIT User & Email for Commiting
 git config --global user.name $userID
 git config --global user.email $userID@test.com
-
