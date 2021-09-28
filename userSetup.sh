@@ -1,5 +1,19 @@
 userID=cbrown
 
+#Setup a Window Manager and make it pretty and easy to use
+##xorg-server - X Window Server
+##xorg-xinit - Start X operations on init
+##bspwm - Binary Space Partition Window Manager
+##sxhkd - Simple X Hot Key Deamon
+##picom - Compositor (Used for transparency etc)
+##polybar - Toolbar
+##feh - Image Viewer, used for Wallpaper
+##Font Awesome - Used for Polybar Icons
+##pkgconf - Needed to run Make against st
+##Patch - Needed to Patch ST
+##Chromium - Default Browser
+sudo pacman -S xorg-server xorg-xinit bspwm sxhkd picom feh rofi ttf-hack ttf-font-awesome pkgconf patch chromium
+
 #Install yay 
 git clone https://aur.archlinux.org/yay.git
 cd yay
@@ -9,17 +23,14 @@ makepkg -i
 cd ..
 sudo rm -R yay
 
-#Setup a Window Manager and make it pretty and easy to use
-##xorg-server - X Window Server
-##xorg-xinit - Start X operations on init
-##bspwm - Binary Space Partition Window Manager
-##sxhkd - Simple X Hot Key Deamon
-##rxvt-unicode - Terminal Emulator
-##picom - Compositor (Used for transparency etc)
-##polybar - Toolbar
-##feh - Image Viewer, used for Wallpaper
-##Font Awesome - Used for Polybar Icons
-sudo pacman -S xorg-server xorg-xinit bspwm sxhkd rxvt-unicode picom feh rofi ttf-hack ttf-font-awesome
+#Install the Suckless Terminal
+git clone https://git.suckless.org/st
+cd st
+make clean install
+cd ..
+rm -R st
+
+#Install Polybar using Yay (Yet another Yhogurt)
 yay -S polybar 
 
 #Make the Config Directory
