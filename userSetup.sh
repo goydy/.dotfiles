@@ -8,9 +8,10 @@ userID=cbrown
 ##picom - Compositor (Used for transparency etc)
 ##polybar - Toolbar
 ##feh - Image Viewer, used for Wallpaper
-##Font Awesome - Used for Polybar Icons
+##Font Awesome - Used for Polybar Icons7
+##Source Code Pro - Terminal Font
 ##Chromium - Default Browser
-sudo pacman -S xorg-server xorg-xinit bspwm sxhkd picom feh rofi ttf-hack ttf-font-awesome pkgconf chromium rxvt-unicode
+sudo pacman -S xorg-server xorg-xinit bspwm sxhkd picom feh rofi adobe-source-code-pro-fonts ttf-font-awesome pkgconf chromium rxvt-unicode
 
 #Install yay 
 git clone https://aur.archlinux.org/yay.git
