@@ -4,12 +4,6 @@ systemctl enable systemd-homed
 #User ID Variable
 userID=cbrown
 
-#Add my User, give them the Bash shell and a home directory
-useradd -m $userID -s /bin/bash
-
-#Set a password interactively for my new user
-passwd $userID
-
 #Set Wireless to use DHCP (Assuming wlan0 as name)
 cat <<EOT >> /etc/systemd/network/20-wireless.network   
 [Match]
@@ -35,10 +29,9 @@ iwctl station wlan0 connect PrettyFlyForAWiFi
 ## make - Used to make pacakges pulled from AUR
 ## gcc - Needed for MakePkg to compile packages 
 ## openssh - Used for GIT as well as other day to day remote control
-pacman -S iwd sudo git fakeroot binutils go make gcc openssh
+## zsh - Trying out a new shell rather than bash
 
-#Grant me sudo, all operations
-echo "cbrown ALL=(ALL) ALL" > /etc/sudoers
+pacman -S iwd sudo git fakeroot binutils go make gcc openssh zsh
 
 #Set Keyboard to UK for terminal users
 echo "KEYMAP=uk" > /etc/vconsole.conf
@@ -50,3 +43,12 @@ locale-gen
 #Set time to network time and set timezeone to Europe/London
 timedatectl set-tiemzone Europe/London
 timedatectl set-ntp true
+
+#Add my User, give them the zsh shell and a home directory
+useradd -m $userID -s /usr/bin/zsh
+
+#Set a password interactively for my new user
+passwd $userID
+
+#Grant me sudo, all operations
+echo "$userID ALL=(ALL) ALL" > /etc/sudoers
