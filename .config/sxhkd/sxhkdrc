@@ -4,7 +4,7 @@ super + Return
 
 #Launch Basic ROFI Menu (Menu's need riced, this is just a bootstrap atm)
 super + @space
-	rofi -show run -disable-history
+	rofi -show drun -disable-history -show-icons
 
 #Start Chromium (B for Browser)
 super + b
