@@ -9,39 +9,52 @@ urxvt.background: rgba:0000/0000/0000/c800
 
 urxvt.font: xft:Source Code Pro:size=8
 
-! special
-*.foreground:   #ffffff
-*.background:   #000000
-*.cursorColor:  #ffffff
+*.foreground: #BCBCBC
+*.background: #262626
 
-! black
-*.color0:       #0e0a3b
-*.color8:       #9a7c82
+! 'Base16' Style colour definitions
+#define base00 #262626
+#define base01 #96e931
+#define base02 #e89e0f
+#define base03 #555f69
+#define base04 #4083cd
+#define base05 #a3a3a3
+#define base06 #d358d5
+#define base07 #dfdfdf
+#define base08 #cb4674
+#define base09 #fc4474
+#define base0A #a18417
+#define base0B #74d55c
+#define base0C #af87d7
+#define base0D #627ad2
+#define base0E #91429d
+#define base0F #22abbb
 
-! red
-*.color1:       #f19632
-*.color9:       #f48d1b
+!https://github.com/liuchengxu/space-vim-dark/blob/master/terminal/space-vim-dark.xresources
+! Dark colours
+*.color0:  base00
+*.color1:  base08
+*.color2:  base0B
+*.color3:  base0A
+*.color4:  base0D
+*.color5:  base0E
+*.color6:  base0C
+*.color7:  base05
 
-! green
-*.color2:       #efc24b
-*.color10:      #eab835
+! Light colours
+*.color8:  base03
+*.color9:  base09
+*.color10: base01
+*.color11: base02
+*.color12: base04
+*.color13: base06
+*.color14: base0F
+*.color15: base07
 
-! yellow
-*.color3:       #6e37ba
-*.color11:      #5a14bc!
-
-! blue
-*.color4:       #4638e6
-*.color12:      #4638e6
-
-! magenta
-*.color5:       #633cdf
-*.color13:      #4113d4
-
-! cyan
-*.color6:       #a264a6
-*.color14:      #a264a6
-
-! white
-*.color7:       #dcb2bb
-*.color15:      #dcb2bb
+! Additional colours (may not be displayed in some terminals)
+*.color16: base09
+*.color17: base0F
+*.color18: base01
+*.color19: base02
+*.color20: base04
+*.color21: base06
