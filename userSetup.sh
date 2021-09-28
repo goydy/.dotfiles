@@ -12,7 +12,7 @@ userID=cbrown
 ##pkgconf - Needed to run Make against st
 ##Patch - Needed to Patch ST
 ##Chromium - Default Browser
-sudo pacman -S xorg-server xorg-xinit bspwm sxhkd picom feh rofi ttf-hack ttf-font-awesome pkgconf patch chromium
+sudo pacman -S xorg-server xorg-xinit bspwm sxhkd picom feh rofi ttf-hack ttf-font-awesome pkgconf patch chromium rxvt-unicode
 
 #Install yay 
 git clone https://aur.archlinux.org/yay.git
@@ -23,13 +23,6 @@ makepkg -i
 cd ..
 sudo rm -R yay
 
-#Install the Suckless Terminal
-git clone https://git.suckless.org/st
-cd st
-make clean install
-cd ..
-rm -R st
-
 #Install Polybar using Yay (Yet another Yhogurt)
 yay -S polybar 
 
@@ -39,6 +32,7 @@ mkdir /home/$userID/.config
 #Link the Config packages wtih this script for the user
 ln -s /home/$userID/.dotfiles/.Xresources /home/$userID/.Xresources
 ln -s /home/$userID/.dotfiles/.xinitrc /home/$userID/.xinitrc
+ln -s /home/$userID/.dotfiles/.zshrc /home/$userID/.zshrc
 ln -s /home/$userID/.dotfiles/.config/bspwm /home/$userID/.config/bspwm
 ln -s /home/$userID/.dotfiles/.config/sxhkd /home/$userID/.config/sxhkd
 ln -s /home/$userID/.dotfiles/.config/polybar /home/$userID/.config/polybar
@@ -48,5 +42,7 @@ ln -s /home/$userID/.dotfiles/.config/picom.conf /home/$userID/.config/picom.con
 #Install Visual Studio Code (open source not Microsoft)
 yay -S code
 
-#Start X on login
-echo "startx" >> ~/.bash_profile
+#Setup GIT User & Email for Commiting
+git config --global user.name $userID
+git config --global user.email $userID@test.com
+

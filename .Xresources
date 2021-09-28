@@ -9,12 +9,6 @@ urxvt.background: rgba:0000/0000/0000/c800
 
 urxvt.font: xft:Source Code Pro:size=8
 
-!Resore Copy Paste using ctrl + shift c and v
-URxvt.keysym.Shift-Control-V: eval:paste clipboard
-URxvt.keysym.Shift-Control-C: eval:selection to clipboard
-URxvt.iso14755: false
-URxvt.iso14655 52: flse
-
 ! special
 *.foreground:   #ffffff
 *.background:   #000000
@@ -34,7 +28,7 @@ URxvt.iso14655 52: flse
 
 ! yellow
 *.color3:       #6e37ba
-*.color11:      #5a14bc
+*.color11:      #5a14bc!
 
 ! blue
 *.color4:       #4638e6

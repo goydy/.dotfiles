@@ -1,6 +1,6 @@
 #Open RXVT Unicode Terminal (Emaulated)
 super + Return
-	st
+	urxvt
 
 #Launch Basic ROFI Menu (Menu's need riced, this is just a bootstrap atm)
 super + @space
