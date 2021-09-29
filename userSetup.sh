@@ -32,6 +32,7 @@ mkdir /home/$userID/.config
 ln -s /home/$userID/.dotfiles/.Xresources /home/$userID/.Xresources
 ln -s /home/$userID/.dotfiles/.xinitrc /home/$userID/.xinitrc
 ln -s /home/$userID/.dotfiles/.zshrc /home/$userID/.zshrc
+ln -s /home/$userID/.dotfiles/.zprofile /home/$userID/.zprofile
 ln -s /home/$userID/.dotfiles/.vimrc /home/$userID/.vimrc
 ln -s /home/$userID/.dotfiles/.config/bspwm /home/$userID/.config/bspwm
 ln -s /home/$userID/.dotfiles/.config/sxhkd /home/$userID/.config/sxhkd
