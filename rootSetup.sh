@@ -33,7 +33,8 @@ sleep 10
 ## gcc - Needed for MakePkg to compile packages 
 ## openssh - Used for GIT as well as other day to day remote control
 ## zsh - Trying out a new shell rather than bash
-pacman -S sudo git fakeroot binutils go make gcc openssh zsh
+##man-db - Read man pages
+pacman -S sudo git fakeroot binutils go make gcc openssh zsh man-db
 
 #Set Keyboard to UK for terminal users
 echo "KEYMAP=uk" > /etc/vconsole.conf
