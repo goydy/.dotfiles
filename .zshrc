@@ -9,3 +9,5 @@ autoload -Uz compinit
 compinit
 
 bindkey  "^[[3~"  delete-char
+
+PS1="%~ $ "
