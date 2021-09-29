@@ -16,8 +16,12 @@ EOT
 #Enable and Start Network Daemon, DNS Daemon and IWD
 systemctl enable --now systemd-networkd systemd-resolved iwd 
 
+sleep 10
+
 #Connect to PrettyFLyForAWiFi network
 iwctl station wlan0 connect PrettyFlyForAWiFi
+
+sleep 10
 
 #Install basic packages used on arch
 ## sudo - Used to run operations as other users (mostly root in this instance)
