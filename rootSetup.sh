@@ -55,3 +55,6 @@ passwd $userID
 
 #Grant me sudo, all operations
 echo "$userID ALL=(ALL) ALL" > /etc/sudoers
+
+#Set up Default UMask
+echo "umask 077" >> /etc/profile
