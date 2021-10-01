@@ -58,3 +58,6 @@ echo "$userID ALL=(ALL) ALL" > /etc/sudoers
 
 #Set up Default UMask
 echo "umask 077" >> /etc/profile
+
+#Set up Google as the DNS Server
+echo "nameserver 8.8.8.8 #Google DNS" >> /etc/resolv.conf
