@@ -12,7 +12,7 @@ super + b
 
 #Start VS Code (E for Editor)
 super + e
-	subl
+	LANG=en_GB.UTF8 subl
 
 #Reload Key bindings
 super + Escape
