@@ -12,7 +12,7 @@ super + b
 
 #Start VS Code (E for Editor)
 super + e
-	code
+	subl
 
 #Reload Key bindings
 super + Escape
