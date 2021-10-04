@@ -39,6 +39,7 @@ ln -s /home/$userID/.dotfiles/.config/sxhkd /home/$userID/.config/sxhkd
 ln -s /home/$userID/.dotfiles/.config/polybar /home/$userID/.config/polybar
 ln -s /home/$userID/.dotfiles/.config/rofi /home/$userID/.config/rofi
 ln -s /home/$userID/.dotfiles/.config/nvim /home/$userID/.config/nvim
+ln -s /home/$userID/.dotfiles/.config/sublime-text /home/$userID/.config/sublime-text
 ln -s /home/$userID/.dotfiles/.config/picom.conf /home/$userID/.config/picom.conf
 
 #Install Visual Studio Code (open source not Microsoft)
