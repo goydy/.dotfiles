@@ -29,6 +29,7 @@ yay -S polybar
 mkdir /home/$userID/.config
 
 #Link the Config packages wtih this script for the user
+ln -s /home/$userID/.dotfiles/.themes /home/$userID/.themes
 ln -s /home/$userID/.dotfiles/.Xresources /home/$userID/.Xresources
 ln -s /home/$userID/.dotfiles/.xinitrc /home/$userID/.xinitrc
 ln -s /home/$userID/.dotfiles/.zshrc /home/$userID/.zshrc
@@ -40,7 +41,9 @@ ln -s /home/$userID/.dotfiles/.config/polybar /home/$userID/.config/polybar
 ln -s /home/$userID/.dotfiles/.config/rofi /home/$userID/.config/rofi
 ln -s /home/$userID/.dotfiles/.config/nvim /home/$userID/.config/nvim
 ln -s /home/$userID/.dotfiles/.config/sublime-text /home/$userID/.config/sublime-text
+ln -s /home/$userID/.dotfiles/.config/gtk-3.0 /home/$userID/.config/gtk-3.0
 ln -s /home/$userID/.dotfiles/.config/picom.conf /home/$userID/.config/picom.conf
+ln -s /home/$userID/.dotfiles/.gtkrc-2.0 /home/$userID/.gtkrc-2.0
 
 #Install Visual Studio Code (open source not Microsoft)
 yay -S code
