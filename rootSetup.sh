@@ -41,6 +41,7 @@ echo "KEYMAP=uk" > /etc/vconsole.conf
 
 #Setup Locale
 echo "en_GB.UTF-8 UTF-8" >> /etc/locale.gen
+echo "en_GB.UTF-8" >> /etc/locale.conf
 locale-gen
 
 #Set time to network time and set timezeone to Europe/London
