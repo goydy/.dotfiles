@@ -45,8 +45,8 @@ ln -s /home/$userID/.dotfiles/.config/gtk-3.0 /home/$userID/.config/gtk-3.0
 ln -s /home/$userID/.dotfiles/.config/picom.conf /home/$userID/.config/picom.conf
 ln -s /home/$userID/.dotfiles/.gtkrc-2.0 /home/$userID/.gtkrc-2.0
 
-#Install Visual Studio Code (open source not Microsoft)
-yay -S code
+#Install Sublime
+yay -S sublime-text-4 sublime-merge
 
 #Setup GIT User & Email for Commiting
 git config --global user.name $userID
