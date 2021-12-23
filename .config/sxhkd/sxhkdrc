@@ -10,10 +10,6 @@ super + @space
 super + b
 	chromium
 
-#Start VLC Player
-super + v
-	vlc
-
 #Start Sublime
 super + e
 	LANG=en_GB.UTF8 subl
