@@ -10,7 +10,11 @@ super + @space
 super + b
 	chromium
 
-#Start VS Code (E for Editor)
+#Start VLC Player
+super + v
+	vlc
+
+#Start Sublime
 super + e
 	LANG=en_GB.UTF8 subl
 
