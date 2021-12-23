@@ -45,7 +45,7 @@ border-color = #00000000
 
 #Internal Bar Padding
 padding-left = 0
-padding-right = 0 
+padding-right = 2
 
 #Module Margins
 module-margin-left = 0
@@ -54,7 +54,7 @@ module-margin-right = 0
 #Module Positioning
 modules-left = bspwm 
 modules-center = 
-modules-right = 
+modules-right = battery
 
 wm-restack = bspwm
 
