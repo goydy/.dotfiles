@@ -12,6 +12,6 @@ bindkey  "^[[3~"  delete-char
 
 PS1="%~ $ "
 
-alias ssh-agent="eval \$(ssh-agent)"
+alias agent="eval \$(ssh-agent)"
 alias id_github="ssh-add ~/.ssh/id_github"
 alias id_homemedia="ssh-add ~/.ssh/id_homemedia"
