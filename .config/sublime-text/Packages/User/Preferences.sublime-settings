@@ -9,4 +9,8 @@
 
 	//Auto Save
 	"save_on_focus_lost": true,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
 }
