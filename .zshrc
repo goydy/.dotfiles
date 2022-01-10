@@ -14,6 +14,7 @@ PS1="%~ $ "
 alias agent="eval \$(ssh-agent)"
 alias id_github="ssh-add ~/.ssh/id_github"
 alias id_homemedia="ssh-add ~/.ssh/id_homemedia"
+alias wifi="networkctl status wlan0"
 
 # Set up Key Bindings for zsh (Home, Del etc). Use terminfo to build profile.
 typeset -g -A key
