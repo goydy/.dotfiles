@@ -6,9 +6,9 @@ super + Return
 super + @space
 	rofi -show drun -disable-history -show-icons
 
-#Start Chromium (B for Browser)
+#Start Firefox (B for Browser)
 super + b
-	chromium
+	firefox
 
 #Start Sublime
 super + e
