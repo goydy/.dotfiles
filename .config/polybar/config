@@ -53,7 +53,7 @@ module-margin-right = 3
 
 #Module Positioning
 modules-left = bspwm 
-modules-center = 
+modules-center = datetime
 modules-right = wifi battery
 
 wm-restack = bspwm
