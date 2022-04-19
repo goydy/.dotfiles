@@ -49,12 +49,12 @@ padding-right = 2
 
 #Module Margins
 module-margin-left = 0
-module-margin-right = 0
+module-margin-right = 3
 
 #Module Positioning
 modules-left = bspwm 
 modules-center = 
-modules-right = battery
+modules-right = wifi battery
 
 wm-restack = bspwm
 
