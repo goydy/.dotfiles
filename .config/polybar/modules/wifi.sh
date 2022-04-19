@@ -5,4 +5,4 @@ interval = 1
 ping-interval = 3
 udspeed-minwidth = 5
 accumulate-stats = false
-label-connected = 💩 %netspeed%
+label-connected = %netspeed%
