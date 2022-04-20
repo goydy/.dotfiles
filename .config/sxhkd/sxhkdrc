@@ -38,9 +38,13 @@ super + {_,shift + }w
 super + shift + {1-9,0}
 	bspc node -d '^{1-9,10}' --follow
 
-# Swap current Window with Biggest Window (Not nescacerilly on same desktop)
+#Open GIMP
 super + g
-	bspc node -s biggest.window
+	gimp
+
+#Take a Screen Shot
+super + c
+	coreshot -f ~/screenShot.png
 
 #Set the Window between Tiled and Full Screen
 super + {t,shift + t,s,f}

@@ -50,6 +50,9 @@ ln -s /home/$userID/.dotfiles/.gtkrc-2.0 /home/$userID/.gtkrc-2.0
 #Install Sublime
 yay -S sublime-text-4 sublime-merge
 
+#Install CoreShot for taking screenshots
+yay -S coreshot
+
 #Setup GIT User & Email for Commiting
 git config --global user.name $userID
 git config --global user.email $userID@test.com
