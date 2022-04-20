@@ -5,3 +5,4 @@ include-file = ~/.config/polybar/modules/datetime.sh
 include-file = ~/.config/polybar/modules/volume.sh
 include-file = ~/.config/polybar/modules/temp.sh
 include-file = ~/.config/polybar/modules/cpu.sh
+include-file = ~/.config/polybar/modules/memory.sh

@@ -54,7 +54,7 @@ module-margin-right = 3
 #Module Positioning
 modules-left = bspwm datetime
 modules-center = 
-modules-right = cpu temp wifi volume battery
+modules-right = cpu temp memory wifi volume battery
 
 wm-restack = bspwm
 
