@@ -44,7 +44,7 @@ super + g
 
 #Take a Screen Shot
 super + c
-	coreshot -f ~/screenShot.png
+	coreshot -s
 
 #Set the Window between Tiled and Full Screen
 super + {t,shift + t,s,f}
