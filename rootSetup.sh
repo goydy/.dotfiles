@@ -13,8 +13,11 @@ Name=wlan0
 DHCP=yes 
 EOT
 
-#Enable and Start Network Daemon, DNS Daemon and IWD
-systemctl enable --now systemd-networkd systemd-resolved iwd 
+#Install Network Manager
+sudo pacman -S networkmanager
+
+#Enable and Start Network Daemon, DNS Daemon and Network Manager Services
+systemctl enable --now systemd-networkd systemd-resolved NetworkManager
 
 sleep 10
 

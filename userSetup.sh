@@ -24,6 +24,21 @@ makepkg -i
 cd ..
 sudo rm -R yay
 
+#Install Pulse Audio & Pulse Audio Volume Control
+sudo pacman -S pavucontrol pulseaudio
+
+#Install Jet Brains Mono Font
+yay -S ttf-jetbrains-mono
+
+#Install Google Material Icons
+yay -S ttf-material-icons-git
+
+#Install Iosevka Nerd Font
+yay -S ttf-iosevka-nerd
+
+#Install Feather Font
+yay -S ttf-icomoon-feather
+
 #Install Polybar using Yay (Yet another Yhogurt)
 yay -S polybar 
 
