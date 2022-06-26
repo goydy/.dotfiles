@@ -24,6 +24,9 @@ makepkg -i
 cd ..
 sudo rm -R yay
 
+#Install Notification Library
+sudo pacman -S notify-send dunst
+
 #Install Pulse Audio & Pulse Audio Volume Control
 sudo pacman -S pavucontrol pulseaudio
 
@@ -61,6 +64,7 @@ ln -s /home/$userID/.dotfiles/.config/sublime-text /home/$userID/.config/sublime
 ln -s /home/$userID/.dotfiles/.config/gtk-3.0 /home/$userID/.config/gtk-3.0
 ln -s /home/$userID/.dotfiles/.config/picom.conf /home/$userID/.config/picom.conf
 ln -s /home/$userID/.dotfiles/.gtkrc-2.0 /home/$userID/.gtkrc-2.0
+ln -s /home/$userID/.dotfiles/.config/dunst /home/$userID/.config/dunst
 
 #Install Sublime
 yay -S sublime-text-4 sublime-merge
