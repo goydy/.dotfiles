@@ -48,6 +48,7 @@ yay -S polybar
 #Install the Better Lock Screen Tool
 sudo pacman -S base-devel
 yay -S betterlockscreen
+betterlockscreen -u ~/.dotfiles/wallpapers/wallpaper.jpg
 
 #Make the Config Directory
 mkdir /home/$userID/.config
