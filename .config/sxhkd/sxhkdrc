@@ -3,7 +3,7 @@ super + Return
 	urxvt
 
 #Lock the Screen
-super + l
+super + o
 	betterlockscreen -l dim
 
 #Launch Basic ROFI Menu (Menu's need riced, this is just a bootstrap atm)
