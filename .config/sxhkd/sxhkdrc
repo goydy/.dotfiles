@@ -46,13 +46,21 @@ super + shift + {1-9,0}
 super + g
 	gimp
 
-#Take a Screen Shot
-super + c
-	coreshot -s
-
 #Set the Window between Tiled and Full Screen
 super + {t,shift + t,s,f}
         bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+
+# Alternate Between Monocle and Tiled Layout
+super + m
+	bspc desktop -l next
+
+#Move Right in Monacle Mode
+super + c
+	bspc node -f next
+
+#Move Left in Monacle Mode
+super + shift + c
+	bspc node -f prev
 
 # Move the selected Window to the target node
 super + {_,shift + }{h,j,k,l}
