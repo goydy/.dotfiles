@@ -15,10 +15,7 @@ alias agent="eval \$(ssh-agent)"
 alias id_github="ssh-add ~/.ssh/id_github"
 alias id_homemedia="ssh-add ~/.ssh/id_homemedia"
 alias wifi="networkctl status wlan0"
-alias mardale-connect="sudo wg-quick up mardale"
-alias mardale-disconnect="sudo wg-quick down mardale"
-alias pia-connect="sudo systemctl start pia@uk_manchester.service"
-alias pia-disconnect="sudo systemctl stop pia@uk_manchester.service"
+
 #Add Local bin directory to PATH
 PATH="$PATH:/home/cbrown/.local/bin"
 
