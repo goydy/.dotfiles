@@ -45,6 +45,10 @@ yay -S ttf-icomoon-feather
 #Install Polybar using Yay (Yet another Yhogurt)
 yay -S polybar 
 
+#Install the Better Lock Screen Tool
+sudo pacman -S base-devel
+yay -S betterlockscreen
+
 #Make the Config Directory
 mkdir /home/$userID/.config
 
@@ -66,6 +70,7 @@ ln -s /home/$userID/.dotfiles/.config/picom.conf /home/$userID/.config/picom.con
 ln -s /home/$userID/.dotfiles/.gtkrc-2.0 /home/$userID/.gtkrc-2.0
 ln -s /home/$userID/.dotfiles/.config/dunst /home/$userID/.config/dunst
 ln -s /home/$userID/.dotfiles/.config/neofetch /home/$userID/.config/neofetch
+ln -s /home/$userID/.dotfiles/.config/betterlockscreenrc /home/$userID/.config/betterlockscreenrc
 
 #Install Sublime
 yay -S sublime-text-4 sublime-merge
