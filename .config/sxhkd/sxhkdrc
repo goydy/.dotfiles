@@ -2,6 +2,10 @@
 super + Return
 	urxvt
 
+#Lock the Screen
+super + l
+	betterlockscreen -l dim
+
 #Launch Basic ROFI Menu (Menu's need riced, this is just a bootstrap atm)
 super + @space
 	rofi -show drun -disable-history -show-icons
