@@ -13,4 +13,10 @@ yay -S keepass
 #Install DBeaver
 yay -S dbeaver
 
+#Install RClone to Sync One Drive
+sudo pacman -S rclone
+
+#Install FUSE2 In order to be able to mount file systems in userspace
+sudo pacman -S fuse2
+
 #Connect to the Domain
