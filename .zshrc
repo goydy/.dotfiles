@@ -8,12 +8,13 @@ zstyle :compinstall filename '/home/cbrown/.zshrc'
 autoload -Uz compinit
 compinit
 
+#Location the Oh-My-ZSH repo is cloned to
 ZSH="/home/cbrown/.oh-my-zsh"
 
+#ZSH Theme to use.
 ZSH_THEME="cbrown"
 
-plugins=(git)
-
+#Run Oh My ZSH
 source $ZSH/oh-my-zsh.sh
 
 #Command Aliases
