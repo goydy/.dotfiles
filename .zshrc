@@ -8,7 +8,17 @@ zstyle :compinstall filename '/home/cbrown/.zshrc'
 autoload -Uz compinit
 compinit
 
-PS1="%~ $ "
+ZSH="/home/cbrown/.oh-my-zsh"
+
+ZSH_THEME="cbrown"
+
+plugins=(git
+        archlinux
+        colorize        
+        sudo    
+        command-not-found)
+
+source $ZSH/oh-my-zsh.sh
 
 #Command Aliases
 alias agent="eval \$(ssh-agent)"

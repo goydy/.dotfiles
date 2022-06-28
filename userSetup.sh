@@ -42,6 +42,12 @@ yay -S ttf-iosevka-nerd
 #Install Feather Font
 yay -S ttf-icomoon-feather
 
+#Install Oh My ZSH
+git clone https://github.com/ohmyzsh/ohmyzsh.git .oh-my-zsh
+
+#Create a Link for the CBrown Z Shell Theme
+ln -s ~/.dotfiles/.config/zsh/themes/cbrown.zsh-theme ~/.oh-my-zsh/themes/cbrown.zsh-theme
+
 #Install Polybar using Yay (Yet another Yhogurt)
 yay -S polybar 
 
