@@ -8,7 +8,6 @@ userID=cbrown
 ##picom - Compositor (Used for transparency etc)
 ##polybar - Toolbar
 ##feh - Image Viewer, used for Wallpaper
-##Font Awesome - Used for Polybar Icons7
 ##Source Code Pro - Terminal Font
 ##Firefox - Default Browser
 ##remmina - Remote Desktop Client
