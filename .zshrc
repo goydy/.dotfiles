@@ -12,11 +12,7 @@ ZSH="/home/cbrown/.oh-my-zsh"
 
 ZSH_THEME="cbrown"
 
-plugins=(git
-        archlinux
-        colorize        
-        sudo    
-        command-not-found)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
