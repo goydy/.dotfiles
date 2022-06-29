@@ -61,6 +61,7 @@ mkdir /home/$userID/.config
 
 #Link the Config packages wtih this script for the user
 ln -s /home/$userID/.dotfiles/.themes /home/$userID/.themes
+ln -s /home/$userID/.dotfiles/.icons /home/$userID/.icons
 ln -s /home/$userID/.dotfiles/.Xresources /home/$userID/.Xresources
 ln -s /home/$userID/.dotfiles/.xinitrc /home/$userID/.xinitrc
 ln -s /home/$userID/.dotfiles/.zshrc /home/$userID/.zshrc
