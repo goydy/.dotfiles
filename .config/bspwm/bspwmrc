@@ -30,4 +30,4 @@ bspc config split_ratio         0.55
 $HOME/.dotfiles/bin/battery_alert &
 
 #Launch Polybar
-$HOME/.config/polybar/launch.sh
+$HOME/.config/polybar/launch.sh &
