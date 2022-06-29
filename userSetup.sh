@@ -13,7 +13,7 @@ userID=cbrown
 ##remmina - Remote Desktop Client
 ##freerdp - Free RDP Protocol
 ##Thunar - File Explorer
-sudo pacman -S xorg-server xorg-xinit bspwm sxhkd picom feh rofi pkgconf firefox rxvt-unicode,thunar
+sudo pacman -S xorg-server xorg-xinit bspwm sxhkd picom feh rofi pkgconf firefox rxvt-unicode,thunar,gtk4
 
 #Install yay 
 git clone https://aur.archlinux.org/yay.git
