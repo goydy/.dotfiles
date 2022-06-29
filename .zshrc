@@ -23,6 +23,11 @@ alias id_github="ssh-add ~/.ssh/id_github"
 alias id_homemedia="ssh-add ~/.ssh/id_homemedia"
 alias wifi="networkctl status wlan0"
 
+#BPDZenith UK VPN
+alias bpd-uk-ovpn-start="sudo systemctl start openvpn-client@BPD-UK.service"
+alias bpd-uk-ovpn-stop="sudo systemctl stop openvpn-client@BPD-UK.service"
+alias bpd-uk-ovpn-status="systemctl status openvpn-client@BPD-UK.service"
+
 #Add Local bin directory to PATH
 PATH="$PATH:/home/cbrown/.local/bin"
 
