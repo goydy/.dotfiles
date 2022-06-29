@@ -73,7 +73,8 @@ ln -s /home/$userID/.dotfiles/.config/rofi /home/$userID/.config/rofi
 ln -s /home/$userID/.dotfiles/.config/nvim /home/$userID/.config/nvim
 ln -s /home/$userID/.dotfiles/.config/sublime-text /home/$userID/.config/sublime-text
 ln -s /home/$userID/.dotfiles/.config/gtk-3.0 /home/$userID/.config/gtk-3.0
-ln -s /home/$userID/.dotfiles/.config/picom.conf /home/$userID/.config/picom.conf
+ln -s /home/$userID/.dotfiles/.config/gtk-4.0 /home/$userID/.config/gtk-4.0
+ln -s /home/$userID/.dotfiles/.config/picom /home/$userID/.config/picom
 ln -s /home/$userID/.dotfiles/.gtkrc-2.0 /home/$userID/.gtkrc-2.0
 ln -s /home/$userID/.dotfiles/.config/dunst /home/$userID/.config/dunst
 ln -s /home/$userID/.dotfiles/.config/neofetch /home/$userID/.config/neofetch
