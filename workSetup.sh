@@ -13,6 +13,9 @@ yay -S keepass
 #Install DBeaver
 yay -S dbeaver
 
+#Install Reminna (and freerdp for RDP Protocol)
+sudo pacman -S freerdp remmina
+
 #Install RClone to Sync One Drive
 sudo pacman -S rclone
 
@@ -23,3 +26,16 @@ sudo pacman -S fuse2
 yay -S openvpn
 
 #Connect to the Domain
+sudo pacman -S ntp samba smbclient
+
+#Add gatewayDC-A.bpdconsulting.co.uk Nameserver IP
+sudo echo "nameserver 10.69.0.55" | sudo tee -a /etc/resolv.conf
+
+#Add gatewayDC-B.bpdconsulting.co.uk Nameserver IP
+sudo echo "nameserver 10.69.0.212" | sudo tee -a /etc/resolv.conf
+
+#Add gatewayDC-C.bpdconsulting.co.uk Nameserver IP
+sudo echo "nameserver 10.69.1.103" | sudo tee -a /etc/resolv.conf
+
+#Add Search for BPDConsulting.co.uk
+sudo echo "search bpdconsulting.co.uk" | sudo tee -a /etc/resolv.conf
