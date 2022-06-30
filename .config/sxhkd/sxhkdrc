@@ -6,6 +6,14 @@ super + Return
 super + o
 	betterlockscreen -l dim
 
+#Show the Power Menu
+super + shift + p
+	~/.dotfiles/bin/powermenu
+
+#Toggle PiCom
+super + p
+	~/.dotfiles/bin/toggle_picom.sh
+
 #Launch Basic ROFI Menu (Menu's need riced, this is just a bootstrap atm)
 super + @space
 	rofi -show drun -disable-history -show-icons
