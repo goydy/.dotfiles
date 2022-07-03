@@ -1,18 +1,6 @@
 userID=cbrown
 
-#Setup a Window Manager and make it pretty and easy to use
-##xorg-server - X Window Server
-##xorg-xinit - Start X operations on init
-##bspwm - Binary Space Partition Window Manager
-##sxhkd - Simple X Hot Key Deamon
-##picom - Compositor (Used for transparency etc)
-##polybar - Toolbar
-##feh - Image Viewer, used for Wallpaper
-##Source Code Pro - Terminal Font
-##Firefox - Default Browser
-##remmina - Remote Desktop Client
-##freerdp - Free RDP Protocol
-##Thunar - File Explorer
+#Base Pcakages
 sudo pacman -S xorg-server xorg-xinit bspwm sxhkd picom feh rofi pkgconf firefox alacritty,thunar,gtk4
 
 #Install yay 
