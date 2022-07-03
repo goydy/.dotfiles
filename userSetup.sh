@@ -13,7 +13,7 @@ userID=cbrown
 ##remmina - Remote Desktop Client
 ##freerdp - Free RDP Protocol
 ##Thunar - File Explorer
-sudo pacman -S xorg-server xorg-xinit bspwm sxhkd picom feh rofi pkgconf firefox rxvt-unicode,thunar,gtk4
+sudo pacman -S xorg-server xorg-xinit bspwm sxhkd picom feh rofi pkgconf firefox alacritty,thunar,gtk4
 
 #Install yay 
 git clone https://aur.archlinux.org/yay.git
@@ -67,6 +67,7 @@ ln -s /home/$userID/.dotfiles/.xinitrc /home/$userID/.xinitrc
 ln -s /home/$userID/.dotfiles/.zshrc /home/$userID/.zshrc
 ln -s /home/$userID/.dotfiles/.zprofile /home/$userID/.zprofile
 ln -s /home/$userID/.dotfiles/.vimrc /home/$userID/.vimrc
+ln -s /home/$userID/.dotfiles/.config/alacritty /home/$userID/.config/alacritty
 ln -s /home/$userID/.dotfiles/.config/bspwm /home/$userID/.config/bspwm
 ln -s /home/$userID/.dotfiles/.config/sxhkd /home/$userID/.config/sxhkd
 ln -s /home/$userID/.dotfiles/.config/polybar /home/$userID/.config/polybar

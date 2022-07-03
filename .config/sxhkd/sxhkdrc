@@ -1,6 +1,6 @@
 #Open RXVT Unicode Terminal (Emaulated)
 super + Return
-	urxvt
+	alacritty
 
 #Lock the Screen
 super + o
