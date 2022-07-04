@@ -1,7 +1,7 @@
 userID=cbrown
 
 #Base Pcakages
-sudo pacman -S xorg-server xorg-xinit bspwm sxhkd picom feh rofi pkgconf firefox alacritty thunar gtk4
+sudo pacman -S xorg-server xorg-xinit bspwm sxhkd picom feh rofi pkgconf firefox alacritty thunar gtk4 flameshot
 
 #Install yay 
 git clone https://aur.archlinux.org/yay.git

@@ -18,6 +18,10 @@ super + p
 super + @space
 	rofi -show drun -disable-history -show-icons
 
+#Take a screenshot using flameshot
+super + s
+	flameshot gui
+
 #Start Firefox (B for Browser)
 super + b
 	firefox
