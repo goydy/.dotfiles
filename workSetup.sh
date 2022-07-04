@@ -6,6 +6,7 @@ sudo pacman -S thunderbird
 
 #Install Microsoft Teams
 yay -S teams
+pacman -S --needed ttf-caladea ttf-carlito ttf-dejavu ttf-liberation ttf-opensans
 
 #Install KeePass
 yay -S keepass
