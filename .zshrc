@@ -18,6 +18,7 @@ ZSH_THEME="cbrown"
 source $ZSH/oh-my-zsh.sh
 
 #Command Aliases
+alias vi=nvim
 alias agent="eval \$(ssh-agent)"
 alias id_github="ssh-add ~/.ssh/id_github"
 alias id_homemedia="ssh-add ~/.ssh/id_homemedia"
