@@ -9,8 +9,19 @@ picom &
 #Load Wallpaper
 feh  --bg-fill ~/.dotfiles/wallpapers/wallpaper.jpg &
 
-#Load Workspaces
-bspc monitor -d 1 2 3 4 5 6 7 8 9 0
+#Determine if there is an external Monitor Connected
+if [[ $(xrandr -q | grep -w  "HDMI1 connected") ]]; 
+then
+	
+	#Load Workspaces across Multiple Monitors
+	bspc monitor HDMI1 -d 1 2 3 4 5 6 7 8 9 
+	bspc monitor LVDS1 -d 0
+
+else
+
+	bspc monitor LVDS1  -d 1 2 3 4 5 6 7 8 9 0
+
+fi
 
 #Binary Space Partition Window Manager Settings
 
