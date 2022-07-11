@@ -65,3 +65,6 @@ echo "umask 077" >> /etc/profile
 
 #Set up Google as the DNS Server
 echo "nameserver 8.8.8.8 #Google DNS" >> /etc/resolv.conf
+
+#Disable WebCam (eugh)
+sudo echo "blacklist uvcvideo" | sudo tee /etc/modprobe.d/disable_webcam.conf
