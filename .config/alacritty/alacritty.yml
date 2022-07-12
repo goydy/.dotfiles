@@ -62,26 +62,26 @@ colors: *tokyo-night
 
 font:
   normal:
-    family: JetBrains Mono Medium
+    family: JetBrains Mono
     style: Regular
 
   bold:
-    family: JetBrains Mono Medium
+    family: JetBrains Mono 
     style: Extra Bold
 
   italic:
-    family: JetBrains Mono Medium
+    family: JetBrains Mono 
     style: Medium Italic
 
   bold_italic:
-    family: JetBrains Mono Medium
+    family: JetBrains Mono 
     style: Extra Bold Italic
 
   size: 7.5
 
 window:
   opacity: 
-    0.4
+    0.85
 
   padding:
     x: 8
