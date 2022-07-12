@@ -5,7 +5,7 @@
 
 	//Font
 	"font_face": "Source Code Pro",
-	"font_size": 9,
+	"font_size": 8,
 
 	//Auto Save
 	"save_on_focus_lost": true,
