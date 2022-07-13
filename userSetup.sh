@@ -30,6 +30,9 @@ yay -S ttf-iosevka-nerd
 #Install Feather Font
 yay -S ttf-icomoon-feather
 
+#Install Feather Font
+yay -S ttf-font-awesome
+
 #Install Oh My ZSH
 git clone https://github.com/ohmyzsh/ohmyzsh.git .oh-my-zsh
 

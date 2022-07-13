@@ -8,7 +8,7 @@ if [[ $(xrandr -q | grep -w  "HDMI1 connected") ]];
 then
 	
 	polybar hdmi-main &
-	polybar hdmi-not-main &
+	#polybar hdmi-not-main &
 else
 
 	polybar undocked-main &
