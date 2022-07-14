@@ -4,8 +4,8 @@
 	"theme": "Adaptive.sublime-theme",
 
 	//Font
-	"font_face": "Source Code Pro",
-	"font_size": 8,
+	"font_face": "JetBrainsMono Nerd Font",
+	"font_size": 7,
 
 	//Auto Save
 	"save_on_focus_lost": true,
