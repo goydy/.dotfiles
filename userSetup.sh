@@ -18,6 +18,9 @@ sudo pacman -S notify-send dunst
 #Install Pulse Audio & Pulse Audio Volume Control
 sudo pacman -S pavucontrol pulseaudio
 
+#Papirus Icons used for ROFI Menu
+yay -S papirus-icon-theme
+
 #Install Jet Brains Mono Font
 yay -S ttf-jetbrains-mono
 
