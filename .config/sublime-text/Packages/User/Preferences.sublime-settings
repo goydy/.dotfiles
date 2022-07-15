@@ -5,7 +5,7 @@
 
 	//Font
 	"font_face": "JetBrainsMono Nerd Font",
-	"font_size": 7,
+	"font_size": 8.5,
 
 	//Auto Save
 	"save_on_focus_lost": true,

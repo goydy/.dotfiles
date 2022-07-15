@@ -20,7 +20,7 @@ then
  	xrandr --output HDMI1 --mode "3840x2160"
 
 	#Load Both Monitors using xRandR
-	xrandr --output LVDS1 --mode 1366x768 --pos 3840x0 --rotate normal --output HDMI1 --primary --mode 3840x2160 --pos 0x0 --rotate normal
+	xrandr --output LVDS1 --mode 1366x768 --pos 3840x0 --rotate normal --output HDMI1 --primary --mode 3840x2160 --pos 0x0 --rotate normal --scale 1.23x1.23
 fi
 
 #Load the X Resources for the User
