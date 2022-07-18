@@ -19,15 +19,30 @@ source $ZSH/oh-my-zsh.sh
 
 #Command Aliases
 alias vi=nvim
+
+#Mount OneDrive
+alias BPDOneDrive="rclone --vfs-cache-mode writes mount "BPDOneDrive": ~/OneDrive/BPDOneDrive &"
+alias GIFTOneDrive="rclone --vfs-cache-mode writes mount "GIFTOneDrive": ~/OneDrive/GIFTOneDrive &"
+
+#Set xterm as the Default SSH Terminal (Alacritty doesn't get recognised 99% of the time)
+alias ssh='TERM=xterm-256color ssh'
+
+#Start SSH Agent
 alias agent="eval \$(ssh-agent)"
+
+#Add Keys to the SSH Agent
 alias id_github="ssh-add ~/.ssh/id_github"
 alias id_homemedia="ssh-add ~/.ssh/id_homemedia"
-alias wifi="networkctl status wlan0"
+
+#ConvaTec Keys
+alias id_convatec_np="ssh-add ~/.ssh/Clients/ConvaTec/convatec_np_rsa"
 
 #BPDZenith UK VPN
 alias bpd-uk-ovpn-start="sudo systemctl start openvpn-client@BPD-UK.service"
 alias bpd-uk-ovpn-stop="sudo systemctl stop openvpn-client@BPD-UK.service"
 alias bpd-uk-ovpn-status="systemctl status openvpn-client@BPD-UK.service"
+
+#ConvaTec VPN
 
 #Add Local bin directory to PATH
 PATH="$PATH:/home/cbrown/.local/bin"
