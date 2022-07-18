@@ -27,15 +27,19 @@ alias GIFTOneDrive="rclone --vfs-cache-mode writes mount "GIFTOneDrive": ~/OneDr
 #Set xterm as the Default SSH Terminal (Alacritty doesn't get recognised 99% of the time)
 alias ssh='TERM=xterm-256color ssh'
 
-#Start SSH Agent
-alias agent="eval \$(ssh-agent)"
+#Start SSH Agent (Running as Source . (or dot))
+alias agent=". ~/.dotfiles/bin/ssh_agent.sh"
 
 #Add Keys to the SSH Agent
 alias id_github="ssh-add ~/.ssh/id_github"
+alias id_bpd_github="ssh-add ~/.ssh/id_bpd_github"
 alias id_homemedia="ssh-add ~/.ssh/id_homemedia"
 
 #ConvaTec Keys
 alias id_convatec_np="ssh-add ~/.ssh/Clients/ConvaTec/convatec_np_rsa"
+
+#White Tower Keys
+alias  id_whitetower_np="ssh-add ~/.ssh/Clients/WhiteTower/whitetower_np_rsa"
 
 #BPDZenith UK VPN
 alias bpd-uk-ovpn-start="sudo systemctl start openvpn-client@BPD-UK.service"
