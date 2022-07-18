@@ -2,10 +2,12 @@
 
 	//Theme
 	"theme": "Adaptive.sublime-theme",
+	"color_scheme": "Packages/Enki Theme/scheme/Enki-Tokyo-Night.tmTheme",
 
 	//Font
 	"font_face": "JetBrainsMono Nerd Font",
-	"font_size": 8.5,
+	"font_size": 6,
+	"tab_size": 2,
 
 	//Auto Save
 	"save_on_focus_lost": true,

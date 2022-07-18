@@ -1,6 +1,3 @@
-#Set the Keyboard to the UK
-setxkbmap gb
-
 #Set the Display (Needed for the Dunst Service to run Correctly)
 systemctl --user import-environment DISPLAY
 
@@ -20,8 +17,11 @@ then
  	xrandr --output HDMI1 --mode "3840x2160"
 
 	#Load Both Monitors using xRandR
-	xrandr --output LVDS1 --mode 1366x768 --pos 3840x0 --rotate normal --output HDMI1 --primary --mode 3840x2160 --pos 0x0 --rotate normal --scale 1.23x1.23
+	xrandr --output LVDS1 --mode 1366x768 --pos 3840x0 --rotate normal --output HDMI1 --primary --mode 3840x2160 --pos 0x0 --rotate normal --scale 1x1
 fi
+
+#Set the Keyboard to the UK
+setxkbmap gb
 
 #Load the X Resources for the User
 xrdb -merge ~/.Xresources
