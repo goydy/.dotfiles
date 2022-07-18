@@ -68,3 +68,6 @@ echo "nameserver 8.8.8.8 #Google DNS" >> /etc/resolv.conf
 
 #Disable WebCam (eugh)
 sudo echo "blacklist uvcvideo" | sudo tee /etc/modprobe.d/disable_webcam.conf
+
+#Install Bluetooth Drivers and Configuration tools
+sudo pacman -S bluez bluez-utils
