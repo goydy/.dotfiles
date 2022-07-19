@@ -1,7 +1,17 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 #Shell History Config, Save last 10000 in file, 1000 in console
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=10000
+
+#Set the Keyboard to the UK
+setxkbmap gb
 
 #Autocomplete
 zstyle :compinstall filename '/home/cbrown/.zshrc'
@@ -12,13 +22,14 @@ compinit
 ZSH="/home/cbrown/.oh-my-zsh"
 
 #ZSH Theme to use.
-ZSH_THEME="cbrown"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 #Run Oh My ZSH
 source $ZSH/oh-my-zsh.sh
 
 #Command Aliases
 alias vi=nvim
+alias h="sudo nvim /etc/hosts"
 
 #Mount OneDrive
 alias BPDOneDrive="rclone --vfs-cache-mode writes mount "BPDOneDrive": ~/OneDrive/BPDOneDrive &"
@@ -37,6 +48,9 @@ alias id_homemedia="ssh-add ~/.ssh/id_homemedia"
 
 #ConvaTec Keys
 alias id_convatec_np="ssh-add ~/.ssh/Clients/ConvaTec/convatec_np_rsa"
+
+#MundiPharma Keys
+alias id_mundi_np="ssh-add ~/.ssh/Clients/MundiPharma/mundi_np_rsa"
 
 #White Tower Keys
 alias  id_whitetower_np="ssh-add ~/.ssh/Clients/WhiteTower/whitetower_np_rsa"
@@ -90,3 +104,6 @@ if (( ${+terminfo[smkx]} && ${+terminfo[rmkx]} )); then
 	add-zle-hook-widget -Uz zle-line-init zle_application_mode_start
 	add-zle-hook-widget -Uz zle-line-finish zle_application_mode_stop
 fi
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.dotfiles/.config/zsh/themes/p10k.zsh ]] || source ~/.dotfiles/.config/zsh/themes/p10k.zsh

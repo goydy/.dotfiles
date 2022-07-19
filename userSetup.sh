@@ -39,8 +39,8 @@ yay -S ttf-font-awesome
 #Install Oh My ZSH
 git clone https://github.com/ohmyzsh/ohmyzsh.git .oh-my-zsh
 
-#Create a Link for the CBrown Z Shell Theme
-ln -s ~/.dotfiles/.config/zsh/themes/cbrown.zsh-theme ~/.oh-my-zsh/themes/cbrown.zsh-theme
+#Install the PowerLevel10K Theme
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 #Install Polybar using Yay (Yet another Yhogurt)
 yay -S polybar 
