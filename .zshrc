@@ -19,10 +19,10 @@ autoload -Uz compinit
 compinit
 
 #Location the Oh-My-ZSH repo is cloned to
-ZSH="/home/cbrown/.oh-my-zsh"
+ZSH="/usr/share/oh-my-zsh"
 
 #ZSH Theme to use.
-ZSH_THEME="powerlevel10k/powerlevel10k"
+ZSH_THEME="zsh-theme-powerlevel10k/powerlevel10k"
 
 #Run Oh My ZSH
 source $ZSH/oh-my-zsh.sh

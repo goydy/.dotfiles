@@ -36,13 +36,16 @@ yay -S ttf-icomoon-feather
 #Install Feather Font
 yay -S ttf-font-awesome
 
-#Install Oh My ZSH
-git clone https://github.com/ohmyzsh/ohmyzsh.git .oh-my-zsh
+#Install Oh My ZSH (installs to /usr/share/oh-my-zsh)
+yay -S oh-my-zsh-git
 
 #Install the PowerLevel10K Theme
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+sudo pacman -S zsh-theme-powerlevel10k
 
-#Install Polybar using Yay (Yet another Yhogurt)
+#Add Power Level 10K to the Oh-My-ZSH Custom Themes
+ln -s /usr/share/zsh-theme-powerlevel10k /usr/share/oh-my-zsh/custom/themes 
+
+#Install Polybar
 yay -S polybar 
 
 #Install the Better Lock Screen Tool
