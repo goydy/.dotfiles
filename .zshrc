@@ -49,6 +49,9 @@ alias id_homemedia="ssh-add ~/.ssh/id_homemedia"
 #ConvaTec Keys
 alias id_convatec_np="ssh-add ~/.ssh/Clients/ConvaTec/convatec_np_rsa"
 
+#Energean Keys
+alias id_energean_np="ssh-add ~/.ssh/Clients/Energean/energean_np_rsa"
+
 #MundiPharma Keys
 alias id_mundi_np="ssh-add ~/.ssh/Clients/MundiPharma/mundi_np_rsa"
 
