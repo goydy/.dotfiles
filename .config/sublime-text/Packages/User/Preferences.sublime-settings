@@ -5,9 +5,12 @@
 	"color_scheme": "Packages/Enki Theme/scheme/Enki-Tokyo-Night.tmTheme",
 
 	//Font
-	"font_face": "Roboto",
-	"font_size": 7.5,
+	"font_face": "JetBrainsMono",
+	"font_size": 7.0,
 	"tab_size": 2,
+
+	//Margin between the gutter and the text files
+	"margin": 2,
 
 	//Auto Save
 	"save_on_focus_lost": true,
