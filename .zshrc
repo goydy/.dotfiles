@@ -59,9 +59,16 @@ alias id_mundi_np="ssh-add ~/.ssh/Clients/MundiPharma/mundi_np_rsa"
 alias  id_whitetower_np="ssh-add ~/.ssh/Clients/WhiteTower/whitetower_np_rsa"
 
 #BPDZenith UK VPN
+##Dependent on Files /etc/openvpn/client/BPD-UK.conf & /etc/openvpn/client/.BPD-UK
 alias bpd-uk-ovpn-start="sudo systemctl start openvpn-client@BPD-UK.service"
 alias bpd-uk-ovpn-stop="sudo systemctl stop openvpn-client@BPD-UK.service"
 alias bpd-uk-ovpn-status="systemctl status openvpn-client@BPD-UK.service"
+
+#BPDZenith Canada VPN
+##Dependent on Files /etc/openvpn/client/BPD-Canada.conf & /etc/openvpn/client/.BPD-Canada
+alias bpd-canada-ovpn-start="sudo systemctl start openvpn-client@BPD-Canada.service"
+alias bpd-canada-ovpn-stop="sudo systemctl stop openvpn-client@BPD-Canada.service"
+alias bpd-canada-ovpn-status="systemctl status openvpn-client@BPD-Canada.service"
 
 #ConvaTec VPN
 
