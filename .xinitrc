@@ -7,17 +7,14 @@ then
 
 	#Define the Mode for the new Monitor
 
-	#HDMI1 - 24 inch office Monitor
+	#HDMI1 - 28 inch office Monitor
 	xrandr --newmode "3840x2160" 69.258 1920 1968 2000 2080 1080 1083 1088 1111 +hsync -vsync
 
-	#Display Port - 24 inch office Monitor
-	#xrandr --newmode "3840x2160_DP" 350.000 3840 3864 3880 3920 2160 2163 2168 2222 +hsync -vsync
-
  	xrandr --addmode HDMI1 "3840x2160"
- 	xrandr --output HDMI1 --mode "3840x2160"
 
 	#Load Both Monitors using xRandR
 	xrandr --output LVDS1 --mode 1366x768 --pos 3840x0 --rotate normal --output HDMI1 --primary --mode 3840x2160 --pos 0x0 --rotate normal --scale 1x1
+
 fi
 
 #Set the Keyboard to the UK
