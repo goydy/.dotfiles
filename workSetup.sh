@@ -1,8 +1,8 @@
 #Install Secret Packages used by Evolution for OAUTH to Office365
 sudo pacman -S gnome-keyring libsecret
 
-#Install Thunderbird as the Mail Client
-sudo pacman -S thunderbird
+#Install Evolution as the Mail Client and Evoltuion Exchange Web Services as the Connecter to Outlook360. Enchant and hunspell used for Spellchecking Dictionaries
+sudo pacman -S evolution evolution-ews enchant hunspell-en_gb
 
 #Install Microsoft Teams
 yay -S teams
