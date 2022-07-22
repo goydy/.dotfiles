@@ -1,3 +1,6 @@
 *.log
 *.sublime_session
 *.sublime-package
+*.config/evolution/.local
+*.config/evolution/.config
+*.config/sublime-text/Packages
