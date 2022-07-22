@@ -42,18 +42,29 @@ alias ssh='TERM=xterm-256color ssh'
 alias agent=". ~/.dotfiles/bin/ssh_agent.sh"
 
 #Add Keys to the SSH Agent
-alias id_github="ssh-add ~/.ssh/id_github"
-alias id_bpd_github="ssh-add ~/.ssh/id_bpd_github"
-alias id_homemedia="ssh-add ~/.ssh/id_homemedia"
+alias id_github="ssh-add ~/.ssh/GitHub/id_github"
+alias id_bpd_github="ssh-add ~/.ssh/GitHub/id_bpd_github"
+alias id_homemedia="ssh-add ~/.ssh/Personal/id_homemedia"
 
 #ConvaTec Keys
 alias id_convatec_np="ssh-add ~/.ssh/Clients/ConvaTec/convatec_np_rsa"
 
 #Energean Keys
 alias id_energean_np="ssh-add ~/.ssh/Clients/Energean/energean_np_rsa"
+alias id_energean_prod="ssh-add ~/.ssh/Clients/Energean/energean_prod_rsa"
 
 #MundiPharma Keys
 alias id_mundi_np="ssh-add ~/.ssh/Clients/MundiPharma/mundi_np_rsa"
+
+#NTL Keys
+alias id_ntl="ssh-add ~/.ssh/Clients/NTL/ntl_rsa"
+
+#Optimum Keys
+alias id_optimum_np="ssh-add ~/.ssh/Clients/Optimum/optimum_np_rsa"
+alias id_optimum_prod="ssh-add ~/.ssh/Clients/Optimum/optimum_prod_rsa"
+
+#Paramount Keys
+alias id_paramount_np="ssh-add ~/.ssh/Clients/Paramount/paramount_np_rsa"
 
 #White Tower Keys
 alias  id_whitetower_np="ssh-add ~/.ssh/Clients/WhiteTower/whitetower_np_rsa"
